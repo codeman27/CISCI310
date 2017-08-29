@@ -23,8 +23,8 @@ public class JavaApplication1 {
     
     public static double circleCircum(int radius){
         double answer = 2 * Math.PI * radius;
-        double roundedAnswer = Math.round(answer * 100.0) / 100.0;
-        return roundedAnswer;
+        return Math.round(answer * 100.0) / 100.0;
+        
     }
     
 }
