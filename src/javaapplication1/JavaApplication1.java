@@ -16,6 +16,15 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int radius = 5;
+        
+        System.out.println("The circumference of this circle is " + circleCircum(radius));
+    }
+    
+    public static double circleCircum(int radius){
+        double answer = 2 * Math.PI * radius;
+        double roundedAnswer = Math.round(answer * 100.0) / 100.0;
+        return roundedAnswer;
     }
     
 }
