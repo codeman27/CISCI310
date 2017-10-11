@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package homework2;
+package homework3;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author cody
  */
-public class Homework2 {
+public class Homework3 {
 
     /**
      * @param args the command line arguments

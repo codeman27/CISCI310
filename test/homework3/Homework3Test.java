@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package homework2;
+package homework3;
 
+import homework3.Homework3;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -20,9 +21,9 @@ import static org.junit.Assert.*;
  *
  * @author croof
  */
-public class Homework2Test {
+public class Homework3Test {
     
-    public Homework2Test() {
+    public Homework3Test() {
     }
     
     @BeforeClass
@@ -62,7 +63,7 @@ public class Homework2Test {
         int X = 2;
         int Y = 3;
         int N = 7;
-        Homework2.run(X, Y, N);
+        Homework3.run(X, Y, N);
         
         for(int i=1; i <= N; i++){
             if(i % Y == 0 && i % X ==0){
@@ -89,7 +90,7 @@ public class Homework2Test {
         int X = 2;
         int Y = 4;
         int N = 7;
-        Homework2.run(X, Y, N);
+        Homework3.run(X, Y, N);
         
         for(int i=1; i <= N; i++){
             if(i % Y == 0 && i % X ==0){
@@ -116,7 +117,7 @@ public class Homework2Test {
         int X = 3;
         int Y = 5;
         int N = 7;
-        Homework2.run(X, Y, N);
+        Homework3.run(X, Y, N);
         
         for(int i=1; i <= N; i++){
             if(i % Y == 0 && i % X ==0){
