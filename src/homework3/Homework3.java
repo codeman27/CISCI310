@@ -21,7 +21,7 @@ public class Homework3 {
         run(2, 3, 7);
     }
     
-    public static void run (int X, int Y, int N) {
+    public static List<Object> run (int X, int Y, int N) {
         List<Object> results = new ArrayList<>();
         
         if(X < 1 || X > Y){
@@ -51,6 +51,8 @@ public class Homework3 {
             System.out.println(results.get(i));
         }
         */
+        
+        return results;
     }
     
 }
