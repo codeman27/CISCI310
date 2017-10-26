@@ -62,19 +62,7 @@ public class Homework2Test {
         int X = 2;
         int Y = 3;
         int N = 7;
-        Homework2.run(X, Y, N);
-        
-        for(int i=1; i <= N; i++){
-            if(i % Y == 0 && i % X ==0){
-                results.add("FizzBuzz");
-            } else if(i % X == 0) {
-                results.add("Fizz");
-            } else if(i % Y == 0) {
-                results.add("Buzz");
-            } else {
-                results.add(i);
-            }
-        }
+        results = Homework2.run(X, Y, N);
         
         for(int i = 0; i < results.size(); i++){
             assertEquals(results.get(i), expected.get(i));
@@ -89,19 +77,7 @@ public class Homework2Test {
         int X = 2;
         int Y = 4;
         int N = 7;
-        Homework2.run(X, Y, N);
-        
-        for(int i=1; i <= N; i++){
-            if(i % Y == 0 && i % X ==0){
-                results.add("FizzBuzz");
-            } else if(i % X == 0) {
-                results.add("Fizz");
-            } else if(i % Y == 0) {
-                results.add("Buzz");
-            } else {
-                results.add(i);
-            }
-        }
+        results = Homework2.run(X, Y, N);
         
         for(int i = 0; i < results.size(); i++){
             assertEquals(results.get(i), expected.get(i));
@@ -116,19 +92,7 @@ public class Homework2Test {
         int X = 3;
         int Y = 5;
         int N = 7;
-        Homework2.run(X, Y, N);
-        
-        for(int i=1; i <= N; i++){
-            if(i % Y == 0 && i % X ==0){
-                results.add("FizzBuzz");
-            } else if(i % X == 0) {
-                results.add("Fizz");
-            } else if(i % Y == 0) {
-                results.add("Buzz");
-            } else {
-                results.add(i);
-            }
-        }
+        results = Homework2.run(X, Y, N);
         
         for(int i = 0; i < results.size(); i++){
             assertEquals(results.get(i), expected.get(i));
