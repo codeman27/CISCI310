@@ -7,6 +7,7 @@ package homework3;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  *
@@ -18,7 +19,12 @@ public class Homework3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        run(2, 3, 7);
+        Scanner in = new Scanner(System.in);
+        
+         int x = in.nextInt(),
+            y = in.nextInt(),
+            n = in.nextInt();
+        run(x, y, n);
     }
     
     public static List<Object> run (int X, int Y, int N) {
