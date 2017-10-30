@@ -33,7 +33,7 @@ public class Homework4
         statement.executeUpdate("create table person (id integer, name string)");
         statement.executeUpdate("insert into person values(1, 'cody')");
         statement.executeUpdate("insert into person values(2, 'daniel')");
-                statement.executeUpdate("insert into person values(3, 'landon')");
+        statement.executeUpdate("insert into person values(3, 'landon')");
         ResultSet rs = statement.executeQuery("select * from person");
         while(rs.next())
         {
