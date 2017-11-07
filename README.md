@@ -1,4 +1,3 @@
-# CISCI310
-Repository for school work.
+Homework 5
 
-Homework assignments are within different, appropriately named branches.
+Streams and parallel streams
